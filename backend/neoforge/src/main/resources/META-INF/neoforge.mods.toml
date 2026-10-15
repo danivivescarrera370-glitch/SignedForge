@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="GPL"
+
+[[mods]]
+modId="signedvelocity"
+version="${version}"
+displayName="SignedVelocity"
+description='''
+Allows you to cancel or modify messages or commands from Velocity without synchronization problems
+'''
+authors="4drian3d"
+displayURL="https://github.com/4drian3d/SignedVelocity"
+issueTrackerURL="https://github.com/4drian3d/SignedVelocity/issues"
+
+[[dependencies.signedvelocity]]
+modId="neoforge"
+type="required"
+versionRange="*"
+ordering="NONE"
+side="SERVER"
+
+[[dependencies.signedvelocity]]
+modId="minecraft"
+type="required"
+versionRange="[26.3,26.4)"
