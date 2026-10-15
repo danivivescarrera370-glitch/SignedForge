@@ -21,15 +21,6 @@ issueTrackerURL="https://github.com/4drian3d/SignedVelocity/issues"
     side="BOTH"
 
 [[dependencies.signedvelocity]]
-    modId="minecraft"
-    type="required"
-    versionRange="[26.2,26.3)"
-    ordering="NONE"
-    side="BOTH"
-
-[[dependencies.signedvelocity]]
-  modId="forgified_fabric_api"
-  type="required"
-  versionRange="*"
-  ordering="NONE"
-  side="BOTH"
+modId="minecraft"
+type="required"
+versionRange="[26.3,26.4)"
